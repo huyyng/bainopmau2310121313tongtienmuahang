@@ -30,6 +30,11 @@ tongtienmuahang(None)                   | None
 #endregion debai
 
 #region bailam
+
 def tongtienmuahang(gia_truoc_thue):
-  return 'todo'
+  if gia_truoc_thue:
+    return (gia_truoc_thue+100000)
+  else:
+    return(None)
+tongtienmuahang(1000000)
 #endregion bailam
